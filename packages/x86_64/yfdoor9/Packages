@@ -1,0 +1,66 @@
+Package: luci-app-control-timewol
+Version: 1.0-3-20190309
+Depends: libc, etherwake
+Section: luci
+Architecture: all
+Installed-Size: 2798
+Filename: luci-app-control-timewol_1.0-3-20190309_all.ipk
+Size: 3565
+SHA256sum: 25a001b877ae216107e0e7ff977cbf45e831770cbde4fe1f2f8930aa873b37a7
+Description:  LuCI support for Timewol From Koolshare
+
+Package: luci-app-control-webrestriction
+Version: 1.0-5-20200107
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 3123
+Filename: luci-app-control-webrestriction_1.0-5-20200107_all.ipk
+Size: 3891
+SHA256sum: 0ed6eaa0ed52cf36771f8dffac23682db5e0ad3bb7a35d5d876e848bdf0b6dca
+Description:  LuCI support for Webrestriction From Koolshare
+
+Package: luci-app-timecontrol
+Version: 1.0-1-20200402
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2788
+Filename: luci-app-timecontrol_1.0-1-20200402_all.ipk
+Size: 3529
+SHA256sum: 8b933a117ddc299a891d8a9e98ccae5db360500f7dea2aeb7d7acf06f006749a
+Description:  LuCI support for Time Control
+
+Package: luci-i18n-control-timewol-zh-cn
+Version: 1.0-3-20190309
+Depends: libc, luci-app-control-timewol
+Section: luci
+Architecture: all
+Installed-Size: 419
+Filename: luci-i18n-control-timewol-zh-cn_1.0-3-20190309_all.ipk
+Size: 1244
+SHA256sum: 982bb117b5ea08946a49b5354a370c6bc56abb7379343bb0ee51f78198640e8e
+Description:  Translation for luci-app-control-timewol - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-control-webrestriction-zh-cn
+Version: 1.0-5-20200107
+Depends: libc, luci-app-control-webrestriction
+Section: luci
+Architecture: all
+Installed-Size: 427
+Filename: luci-i18n-control-webrestriction-zh-cn_1.0-5-20200107_all.ipk
+Size: 1259
+SHA256sum: 003c47fcb80df413d35605eee532a9debd51acf1b2bd53981a7458692ece9f3b
+Description:  Translation for luci-app-control-webrestriction - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-timecontrol-zh-cn
+Version: 1.0-1-20200402
+Depends: libc, luci-app-timecontrol
+Section: luci
+Architecture: all
+Installed-Size: 722
+Filename: luci-i18n-timecontrol-zh-cn_1.0-1-20200402_all.ipk
+Size: 1542
+SHA256sum: f9bf5382477ff6e9fbb81f47ea6ed4f6ca7e13e4ef6979653152366003c9f930
+Description:  Translation for luci-app-timecontrol - 简体中文 (Simplified Chinese)
+

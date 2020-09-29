@@ -1,0 +1,335 @@
+Package: luci-app-ddns
+Version: 2.4.9-8
+Depends: libc, luci-mod-admin-full, ddns-scripts
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 26333
+Filename: luci-app-ddns_2.4.9-8_all.ipk
+Size: 27144
+SHA256sum: aa9afe242060200cdb0a1451abdd8db5ee1742b690a088bf9fba6be62f8b70eb
+Description:  LuCI Support for Dynamic DNS Client (ddns-scripts)
+
+Package: luci-app-firewall
+Version: git-20.256.12360-1a54222-1
+Depends: libc, firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10820
+Filename: luci-app-firewall_git-20.256.12360-1a54222-1_all.ipk
+Size: 11558
+SHA256sum: aff3923d05e1e9aa275c344dacbeb0d632bbf337eee314b4d64747ffa8ad4e5d
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-nlbwmon
+Version: git-20.256.12360-1a54222-1
+Depends: libc, nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 21671
+Filename: luci-app-nlbwmon_git-20.256.12360-1a54222-1_all.ipk
+Size: 22479
+SHA256sum: 468b93ec2fb66cbb423e54c5d784c1ed59de549a0bfb41775a5361bbf0708d93
+Description:  Netlink based bandwidth accounting
+
+Package: luci-app-samba
+Version: git-20.256.12360-1a54222-1
+Depends: libc, samba36-server
+Section: luci
+Architecture: all
+Installed-Size: 1499
+Filename: luci-app-samba_git-20.256.12360-1a54222-1_all.ipk
+Size: 2240
+SHA256sum: 3ea2426f5b2245913f1b52050016da4c6a6f288258b0a804fef9d8064a69fc6c
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-app-upnp
+Version: git-20.256.12360-1a54222-1
+Depends: libc, miniupnpd
+Section: luci
+Architecture: all
+Installed-Size: 3602
+Filename: luci-app-upnp_git-20.256.12360-1a54222-1_all.ipk
+Size: 4379
+SHA256sum: cfc6c721b5ce4edf4902d70bd9a0494ca43a88792d2b6a5c921614c674d527c7
+Description:  Universal Plug & Play configuration module
+
+Package: luci-app-wol
+Version: git-20.256.12360-1a54222-1
+Depends: libc, etherwake, wol
+Section: luci
+Architecture: all
+Installed-Size: 1455
+Filename: luci-app-wol_git-20.256.12360-1a54222-1_all.ipk
+Size: 2182
+SHA256sum: 2c8816fec6fe371b465ba6bef533c9d083175e3713aae0eb305d42b9cb00e030
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-base
+Version: git-20.256.12360-1a54222-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+License: Apache-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 124243
+Filename: luci-base_git-20.256.12360-1a54222-1_x86_64.ipk
+Size: 125253
+SHA256sum: cbd5d64359024ca70f2d1ccba36ed4fbe25f6c49d1b7fe1527df238ce90400d9
+Description:  LuCI core libraries
+
+Package: luci-compat
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci-compat_git-20.256.12360-1a54222-1_all.ipk
+Size: 786
+SHA256sum: 73436263b720e9d6ea65332929d5f6a02322d7158c168f90a87fdc0cf4986c7f
+Description:  LuCI compatibility libraries
+
+Package: luci-i18n-base-en
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 723
+Filename: luci-i18n-base-en_git-20.256.12360-1a54222-1_all.ipk
+Size: 1523
+SHA256sum: 0be376642c7fced5e47223863b696fb5731085ddfdea18a02ba0579eab4bf6c5
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-zh-cn
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 29393
+Filename: luci-i18n-base-zh-cn_git-20.256.12360-1a54222-1_all.ipk
+Size: 30263
+SHA256sum: 08250df80100eece7e53e8a04414391564088b340b0010965329b59c668f16aa
+Description:  Translation for luci-base - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ddns-en
+Version: 2.4.9-8
+Depends: libc, luci-app-ddns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 304
+Filename: luci-i18n-ddns-en_2.4.9-8_all.ipk
+Size: 1126
+SHA256sum: 124fe0cf012f15187111946d6c5effd11c7ea7460d7ca3499e184a16cde0b196
+Description:  Translation for luci-app-ddns - English
+
+Package: luci-i18n-ddns-zh-cn
+Version: 2.4.9-8
+Depends: libc, luci-app-ddns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6766
+Filename: luci-i18n-ddns-zh-cn_2.4.9-8_all.ipk
+Size: 7666
+SHA256sum: 2b77cc380cb409c5d1fd17f8a7281df910d8a0317cb93c0d82bbf37a996eaecf
+Description:  Translation for luci-app-ddns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-firewall-en
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 305
+Filename: luci-i18n-firewall-en_git-20.256.12360-1a54222-1_all.ipk
+Size: 1106
+SHA256sum: 06cb0848dcd46dee886c74c94b1835130e8136f0d630c6c7d389ca2bf2cecd59
+Description:  Translation for luci-app-firewall - English
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4641
+Filename: luci-i18n-firewall-zh-cn_git-20.256.12360-1a54222-1_all.ipk
+Size: 5466
+SHA256sum: 2fd7ac1c5a49eb2c3208aa92a520f2775793c0cb50df53c180993b76be6b6c9d
+Description:  Translation for luci-app-firewall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-nlbwmon-zh-cn
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3777
+Filename: luci-i18n-nlbwmon-zh-cn_git-20.256.12360-1a54222-1_all.ipk
+Size: 4588
+SHA256sum: 64e2167bacc2f2921c9cd77e82e2154800711f590021d4b0394e4293789513c6
+Description:  Translation for luci-app-nlbwmon - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-samba-en
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-samba
+Section: luci
+Architecture: all
+Installed-Size: 611
+Filename: luci-i18n-samba-en_git-20.256.12360-1a54222-1_all.ipk
+Size: 1395
+SHA256sum: 1309ab1a034087e68d7911a0ced49d7cdd6d09e2ad5382b888a76edd27670fdb
+Description:  Translation for luci-app-samba - English
+
+Package: luci-i18n-samba-zh-cn
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-samba
+Section: luci
+Architecture: all
+Installed-Size: 1219
+Filename: luci-i18n-samba-zh-cn_git-20.256.12360-1a54222-1_all.ipk
+Size: 2064
+SHA256sum: 38e73dfc5c09bea679b9fc54e878e661f17a8544e920c1e857ff6ee39214aeb4
+Description:  Translation for luci-app-samba - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-upnp-en
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-upnp
+Section: luci
+Architecture: all
+Installed-Size: 303
+Filename: luci-i18n-upnp-en_git-20.256.12360-1a54222-1_all.ipk
+Size: 1088
+SHA256sum: 2fc67ca2424d246ebe0813ea2c1071780a62d5e242d8aeb6a242cd750930ff8a
+Description:  Translation for luci-app-upnp - English
+
+Package: luci-i18n-upnp-zh-cn
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-upnp
+Section: luci
+Architecture: all
+Installed-Size: 1607
+Filename: luci-i18n-upnp-zh-cn_git-20.256.12360-1a54222-1_all.ipk
+Size: 2451
+SHA256sum: 941531a0f485b4c88a2ccebc2a813f1094bbeb7b080b51d5c9a18857ebc38139
+Description:  Translation for luci-app-upnp - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-wol-en
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 409
+Filename: luci-i18n-wol-en_git-20.256.12360-1a54222-1_all.ipk
+Size: 1194
+SHA256sum: 2c7ddfae1eb7c668f51dbe9cf8f3565d05a3dcff677bb0f7375bf943c4c1b486
+Description:  Translation for luci-app-wol - English
+
+Package: luci-i18n-wol-zh-cn
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 864
+Filename: luci-i18n-wol-zh-cn_git-20.256.12360-1a54222-1_all.ipk
+Size: 1710
+SHA256sum: 2815dbbfc7d76e95863bc9fa7c669eba3253d758c3d25f125c11efbc63e4aaa7
+Description:  Translation for luci-app-wol - 简体中文 (Simplified Chinese)
+
+Package: luci-lib-ip
+Version: git-20.256.12360-1a54222-1
+Depends: libc, liblua5.1.5, libnl-tiny
+License: Apache-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 10175
+Filename: luci-lib-ip_git-20.256.12360-1a54222-1_x86_64.ipk
+Size: 10900
+SHA256sum: 6088d5df88c1d63856d8c974593c57b86c6371897bc840c37e67db00f69df4b8
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-20.256.12360-1a54222-1
+Depends: libc, liblua5.1.5, libjson-c4
+Section: luci
+Architecture: x86_64
+Installed-Size: 3978
+Filename: luci-lib-jsonc_git-20.256.12360-1a54222-1_x86_64.ipk
+Size: 4655
+SHA256sum: 30d002885ddc7225e280f1f6bdbd28c08e48de1c53e07d22cfe4a8c37e16fb08
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-20.256.12360-1a54222-1
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 32941
+Filename: luci-lib-nixio_git-20.256.12360-1a54222-1_x86_64.ipk
+Size: 33659
+SHA256sum: b65a43818e0cef0c01433929a0cacdd0b73b247654183064eb76ce9df6efa995
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-20.256.12360-1a54222-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 80400
+Filename: luci-mod-admin-full_git-20.256.12360-1a54222-1_x86_64.ipk
+Size: 81309
+SHA256sum: 357fe0484c0aac9bb33d0f1a3bba0c769caab6026d212ea7388fe98474c6c182
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ppp
+Version: git-20.256.12360-1a54222-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3107
+Filename: luci-proto-ppp_git-20.256.12360-1a54222-1_all.ipk
+Size: 3803
+SHA256sum: 814bcb89faa022bbeffb545f6e6ab98a25be229ab8fb5cb8176cf2203f6615cd
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-20.256.12360-1a54222-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 13674
+Filename: luci-theme-bootstrap_git-20.256.12360-1a54222-1_all.ipk
+Size: 14442
+SHA256sum: ec197a3dd2611cb5006038bfc3eee3b7f396abdb563c2095bb2cdb4a1217620c
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-20.256.12360-1a54222-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, rpcd-mod-rrdns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-20.256.12360-1a54222-1_all.ipk
+Size: 902
+SHA256sum: e781b7fad221f5554553db9c1d49dc2271bc99a34a99f12cd55244fc0555c510
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20191228, libubus20191227
+License: Apache-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 3852
+Filename: rpcd-mod-rrdns_20170710_x86_64.ipk
+Size: 4676
+SHA256sum: 8d63181b11652a62f9c5d8c6fdffccdb9e94cd3c73eb58b2089d1c34045e9da7
+Description:  Provides rapid mass reverse DNS lookup functionality.
+
